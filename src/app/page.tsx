@@ -15,17 +15,17 @@ function TestButton() {
         text-base font-normal leading-[120%] text-white
         transition-all duration-500 ease-in-out
 
-        border-[#FF005B]
-        bg-[#FF005B]/30
-        shadow-[0px_17px_34px_0px_rgba(255,0,91,0.20)]
+        border-[#3B82F6]
+        bg-[#3B82F6]/30
+        shadow-[0px_17px_34px_0px_rgba(59,130,246,0.20)]
         backdrop-blur-[27px]
 
         hover:-translate-y-1
-        hover:bg-[#FF005B]/60
-        hover:shadow-[0px_0px_34px_0px_rgba(255,0,91,0.50)]
+        hover:bg-[#3B82F6]/60
+        hover:shadow-[0px_0px_34px_0px_rgba(59,130,246,0.50)]
 
         focus:scale-[0.98]
-        focus:shadow-[0px_4px_54px_0px_#FF005B]
+        focus:shadow-[0px_4px_54px_0px_#3B82F6]
 
         sm:px-8 sm:py-6
 
@@ -47,11 +47,11 @@ function TestButton() {
         height="20"
         viewBox="0 0 20 20"
         fill="none"
-        className="relative z-10 drop-shadow-[0px_0px_24px_#FF005B]"
+        className="relative z-10 drop-shadow-[0px_0px_24px_#3B82F6]"
       >
         <path
           d="M14.5148 4.5148L13.6239 5.4057L17.5882 9.37006H0V10.63H17.5882L13.6239 14.5943L14.5148 15.4852L20 9.99999L14.5148 4.5148Z"
-          fill="#FF005B"
+          fill="#3B82F6"
         />
       </svg>
     </button>
@@ -94,7 +94,7 @@ export default function Home() {
           <div className="rounded-lg bg-slate-800 p-6">
             <h3 className="font-semibold text-green-400">✓ Preservado</h3>
             <ul className="mt-3 space-y-2 text-sm text-slate-300">
-              <li>• Cor #FF005B (pink)</li>
+              <li>• Cor #3B82F6 (blue via Builder.io AI!)</li>
               <li>• Background 30% opacidade</li>
               <li>• Hover: elevação 5px</li>
               <li>• Animação da seta</li>
@@ -118,7 +118,7 @@ export default function Home() {
           <h3 className="font-semibold text-white">Próximos Passos</h3>
           <ol className="mt-3 space-y-2 text-sm text-slate-300">
             <li>1. Conectar este repo ao Builder.io Fusion ✅</li>
-            <li>2. Testar conversão via AI prompt</li>
+            <li>2. Testar conversão via AI prompt ✅</li>
             <li>3. Comparar resultado com manual</li>
             <li>4. Decidir abordagem para 752 templates</li>
           </ol>
